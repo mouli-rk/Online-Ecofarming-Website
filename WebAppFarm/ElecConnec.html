@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Jai Kisaan</title>
+        <link rel="stylesheet" href="Trycss.css">
+        <link rel="stylesheet" href="Tryg.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lobster&display=swap" rel="stylesheet">
+      <script>
+        function submitfun()
+        {
+          window.alert("User detais are updated Succesfully")
+          var x=document.getElementById("gfarm").
+            x.action="Login.html"
+        }
+        function check() {
+          var s=document.getElementById("declare").checked
+          if(s!=true)
+          {
+            // alert("please declare")
+            var y="please fill the checkbox"
+            document.getElementById("warn")="KANNA"
+            // document.getElementById("gfarm").removeAttribute("action")
+          }
+          else
+          {
+            submitfun()
+          }
+}
+      </script>
+        
+    </head>
+    <body>
+        <div style="padding-bottom:8px;border-bottom: 1.2px solid black;padding-bottom: 1%;">
+        <ui style="background-color: green;;">
+          <li><a href="Complaint.html">Complaints</a></li>
+            <li><a href="Login2.html">Registration</a></li>
+            <li><a href="#">Growth</a></li>
+            <li><a href="Guide.html">Guide</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ui>
+        
+        <span><img src="rice2.jfif" alt="riceimg" height="30px" width="25px" style="margin-left: -30px;"></span>
+        <li class="name"><span style="font-family:'Dancing Script', cursive;margin-bottom: 5px;color: navy;">
+          FarminG&nbsp&nbsp&nbsp&nbspIndia</li>
+          <!-- <li class="name"><span style="border: 1px solid navy;font-family:'Dancing Script', cursive;border-radius: 2px;background-color: rgba(255, 230, 6, 0.781);margin-bottom: 5px;color: black;"><span style="background-color:rgb(156, 255, 8);color:rgb(31, 28, 28);border-right: 2px solid navy;">
+            AgrO&nbsp</span>&nbspIndia</span></li> -->
+    </div>
+    <div style="border: 1.3px solid navy;width: 960;margin-top:2%;margin-left: 12%;">
+      <div style="padding-top: 8.5%;margin-top:3%;font-size:17px;color:green;padding: 1%;padding-left:4%;padding-right: 3%;">
+          <p style="font-size: 19px;text-align: center;height:20px;font-family:'Josefin Sans';color:navy;padding-top:5px;background-color: khaki;">Electricity Exemp Form</p><br>
+          <form action="electricity.jsp" method="POST">
+            <p style="color: navy;">Please fill the details carefully,errors in this details may leads to cancellation of resgistration
+            and may rise problems in future registration</p>
+            <br><br>
+            <label for="Aadhar">Aadhar number : </label>
+            <input style="margin-left: 1.5%;"type="text" id="Aadhar" name="Aadhar" placeholder="Enter AadharNumber">
+            <label style="margin-left: 10.5%;"for="Mobile">Mobile &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+            <input style="text-align: center;margin-left: 1.5%;" 
+            type="text" id="Mobile" name="Mobile" placeholder="Enter Mobile No">
+            <br><br><br>
+            <label for="Area">Area Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </label>
+            <input style="margin-left: 1.5%;"type="text" id="Area" name="Area" placeholder="Enter Area Name">&nbsp&nbsp&nbsp&nbsp
+            <label style="margin-left: 8.5%;"for="village">Village &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+            <input style="text-align: center;margin-left: 1.5%;" 
+            type="text" id="village" name="Village" placeholder="Enter Village Name"><br><br><br>
+
+            <label for="Acres">Acres &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </label>
+            <input style="margin-left: 1.5%;"type="text" id="Acres" name="Acres" placeholder="Enter Acres">&nbsp&nbsp&nbsp&nbsp
+            <label style="margin-left: 8.5%;"for="SoilType">SoilType &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+            <input style="text-align: center;margin-left: 1.5%;" 
+            type="text" id="SoilType" name="SoilType" placeholder="Enter SoilName "><br><br><br>
+            <label for="OwnerName">Owner Name &nbsp&nbsp&nbsp&nbsp: </label>
+            <input style="margin-left: 1.5%;"type="text" id="OwnerName" name="OwnerName" placeholder="Enter Owner Name">&nbsp&nbsp&nbsp&nbsp
+            <label style="margin-left: 8.5%;" for="FatherName">Father Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+            <input style="text-align: center;margin-left: 1.5%;" 
+            type="text" id="FatherName" name="FatherName" placeholder="Enter FatherName"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp><br><br><br>
+            <label for="Date">Date &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </label>
+            <input style="margin-left: 1.5%;"type="text" id="Date" name="Date" placeholder="Enter Date">&nbsp&nbsp&nbsp&nbsp
+            <label style="margin-left: 8.5%;" for="AnnualInc">Annual Income &nbsp&nbsp:</label>
+            <input style="text-align: center;margin-left: 1.5%;" 
+            type="text" id="AnnualInc" name="AnnualIncome" placeholder="Enter Annual Income">
+
+            <br><br><br>
+            <br><br><br>
+            <input type="checkbox" id="declare" name="declare" value="declare" style="height: 14;width:14;">
+            <label for="declare">I here by declare that the above particulars are filed by me, correct and complete to up to date.  
+              I am also ready for any Inspection.</label><br>
+              <!-- <p id="warn">Hii</p> -->
+              <br><br><br>
+            <input style="color:rgb(96, 96, 177);border:1.5px solid rgb(107, 107, 172);margin-left:40%;background-color: white;width: 100px;height:35px;border-radius:4px ;" type="submit" value="Submit">
+        </form>
+      </div>
+      </div>
+    
+
+    </body>
+</html>
